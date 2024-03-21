@@ -14,7 +14,8 @@ First, let’s put together a Docker file to build an image with everything we n
 
   # Install necessary packages
   RUN apt-get update && \
-      apt-get install -y ruby-full build-essential zlib1g-dev git
+      apt-get install -y ruby-full build-essential zlib1g-dev git && \
+      git config --global init.defaultBranch main
 
   # Install Jekyll and Bundler
   RUN gem install bundler jekyll
