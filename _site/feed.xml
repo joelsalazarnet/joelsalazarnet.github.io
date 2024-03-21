@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-03-21T01:00:46+00:00</updated><id>/feed.xml</id><title type="html">Joel Salazar</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Build Jekyll and GitHub Pages using a Docker Container</title><link href="/coding/2024/03/20/build-jekyll-and-github-pages-using-a-docker-container.html" rel="alternate" type="text/html" title="Build Jekyll and GitHub Pages using a Docker Container" /><published>2024-03-20T23:00:00+00:00</published><updated>2024-03-20T23:00:00+00:00</updated><id>/coding/2024/03/20/build-jekyll-and-github-pages-using-a-docker-container</id><content type="html" xml:base="/coding/2024/03/20/build-jekyll-and-github-pages-using-a-docker-container.html"><![CDATA[<p>Unleash the power of Docker for a hassle-free Jekyll blog setup and deployment to GitHub Pages. This technical guide will cover the essentials of using Docker containers to streamline your development workflow, ensuring a smooth transition from local development to live publication. Let’s get started! 🚀</p>
+
+<p>First, let’s put together a Docker file to build an image with everything we need.</p>
+
+<figure class="highlight"><pre><code class="language-docker" data-lang="docker">  <span class="c"># Dockerfile for Jekyll using Ubuntu</span>
+  FROM ubuntu:latest
+
+  <span class="c"># Install necessary packages</span>
+  RUN apt-get update &amp;&amp; \
+      apt-get install -y ruby-full build-essential zlib1g-dev git
+
+  <span class="c"># Install Jekyll and Bundler</span>
+  RUN gem install bundler jekyll
+
+  <span class="c"># Set the working directory inside the container</span>
+  WORKDIR /srv/jekyll</code></pre></figure>
+
+<p>Proceed to build the image using the command <code class="language-plaintext highlighter-rouge">docker build -t jekyll-ubuntu .</code> and lets execute the following commands:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">  docker run <span class="nt">--rm</span> <span class="nt">-it</span> <span class="nt">-p</span> 4000:4000 <span class="nt">-p</span> 35729:35729 <span class="nt">-v</span> ghpages:/srv/jekyll jekyll-ubuntu bash
+  jekyll new <span class="nb">.</span>
+  bundle <span class="nb">exec </span>jekyll serve <span class="nt">--host</span> 0.0.0.0 <span class="nt">--livereload</span></code></pre></figure>
+
+<p>If you already have an existing volume, then you will have to use <code class="language-plaintext highlighter-rouge">bundle install</code> instead of <code class="language-plaintext highlighter-rouge">jekyll new .</code></p>
+
+<p>Finally, simply connect to the container via Visual Studio Code and designate the <code class="language-plaintext highlighter-rouge">/srv/jekyll</code> directory as your workspace to begin crafting your Jekyll site.</p>]]></content><author><name></name></author><category term="coding" /><summary type="html"><![CDATA[Unleash the power of Docker for a hassle-free Jekyll blog setup and deployment to GitHub Pages. This technical guide will cover the essentials of using Docker containers to streamline your development workflow, ensuring a smooth transition from local development to live publication. Let’s get started! 🚀]]></summary></entry></feed>
