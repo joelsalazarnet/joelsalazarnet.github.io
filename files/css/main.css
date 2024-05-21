@@ -36,14 +36,13 @@ html {
     font-size: 1.5rem;
     color: #444;
     text-decoration: none;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .linkedin-icon {
     width: 24px;
     height: 24px;
     fill: #666;
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
+    margin-top: 8px;
 }
 
 .profile-pic {
@@ -57,4 +56,8 @@ html {
 .footer-subtitle {
     font-size: 0.8rem;
     color: #666;
+}
+
+.bmc {
+    width: 150px;
 }
