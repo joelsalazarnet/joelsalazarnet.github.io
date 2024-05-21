@@ -5,8 +5,9 @@ date:   2024-05-20
 categories: cybersecurity
 ---
 A significant portion of small business leaders who responded to the Identity Theft Resource Center's 2023 Business Impact Survey reported experiencing cyberattacks, highlighting the presence of malicious actors causing substantial harm. The 2023 research recorded that 73% of breaches involved data, security, or both.
+<!--more-->
 
-Test
+![Chart of Types of Cyberattacks on U.S. Small Business, 2023](/assets/images/w8c23jjs.png)
 
 Employee and consumer data continue to be the most impacted categories of information impacted by a breach. This is because these types of data often include sensitive information that can be used for identity theft, financial fraud, and other cybercrimes. 
 

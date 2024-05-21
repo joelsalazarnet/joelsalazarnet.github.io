@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Build a Jekyll blog using Docker"
-date:   2024-03-20 23:00
+date:   2024-03-20
 categories: coding
 ---
 Unleash the power of Docker for a hassle-free Jekyll blog setup and deployment. This technical guide will cover the essentials of using Docker containers to streamline your development workflow, ensuring a smooth transition from local development to live publication. Let’s get started! 🚀
+<!--more-->
 
 First, let’s create a "dockerfile" with the necessary instructions to build our image.
 
