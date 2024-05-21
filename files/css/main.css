@@ -3,6 +3,8 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .page-content {
@@ -31,17 +33,19 @@ html {
 .header-title,
 .header-title:hover,
 .header-title:visited {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-size: 1.5rem;
-    color: #444;
+    color: #888;
     text-decoration: none;
+    letter-spacing: -0.05rem;
 }
 
 .linkedin-icon {
     width: 24px;
     height: 24px;
-    fill: #666;
+    fill: #888;
     margin-top: 8px;
 }
 
