@@ -1,4 +1,35 @@
-/* custom.css */
 .page-content {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.footer-info-container>* {
+    width: 100%;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-right: 10px;
+}
+
+
+.footer-subtitle {
+    font-size: 0.8rem;
+    color: #666;
 }
