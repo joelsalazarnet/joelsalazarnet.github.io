@@ -1,10 +1,10 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-flex-container">
+  <div class="container center dflex sbetween">
+    <div class="contact-card dflex">
       <div>
         <img class="profile-pic" src="/files/images/4lc5vc84.png" alt="Profile picture">
       </div>
-      <div class="footer-info-container">
+      <div>
         <div>
           {%- if site.title -%}
           {{ site.title | escape }}
@@ -16,6 +16,9 @@
           {%- endif -%}
         </div>
       </div>
+    </div>
+    <div class="action-card">
+      <span>Donate</span>
     </div>
   </div>
 </footer>

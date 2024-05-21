@@ -1,4 +1,4 @@
-html{
+html {
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -9,16 +9,16 @@ html{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.dflex{
+.dflex {
     display: flex;
     align-items: center;
 }
 
-.sbetween{
+.sbetween {
     justify-content: space-between;
 }
 
-.container{
+.container {
     max-width: 800px;
     padding: 0.5rem;
     box-sizing: border-box;
@@ -28,40 +28,22 @@ html{
     margin: 0 auto;
 }
 
-.header-title, .header-title:hover, .header-title:visited {
+.header-title,
+.header-title:hover,
+.header-title:visited {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 1.5rem;
-    color: #222;
+    color: #444;
     text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .linkedin-icon {
     width: 24px;
     height: 24px;
     fill: #666;
-}
-
-
-
-
-.footer-flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.footer-info-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    flex-direction: column;
-}
-
-.footer-info-container>* {
-    width: 100%;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
 }
 
 .profile-pic {
@@ -71,7 +53,6 @@ html{
     object-fit: cover;
     padding-right: 10px;
 }
-
 
 .footer-subtitle {
     font-size: 0.8rem;
