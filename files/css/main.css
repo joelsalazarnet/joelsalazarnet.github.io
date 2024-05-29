@@ -1,24 +1,44 @@
 html {
     font-size: 16px;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+
+.header-title,
+.header-title:hover,
+.header-title:visited {
     font-family: "Wix Madefor Display", sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: -0.05rem;
+    text-decoration: none;
+    color: #434343;
 }
 
-h2 {
-    font-size: 1.4rem !important;
-    margin-top: 2rem;
-}
-
-h3 {
-    font-size: 1rem;
+.linkedin-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-top: 0.5rem;
+    fill: #0077b5;
 }
 
 .page-content {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #434343 !important;
+    color: #000;
 }
+
+h1 {
+    font-size: 2rem !important;
+}
+
+h2 {
+    font-size: 1.4rem !important;
+}
+
+h3 {
+    font-size: 1.1rem !important;
+}
+
+
+
 
 .dflex {
     display: flex;
@@ -39,24 +59,7 @@ h3 {
     margin: 0 auto;
 }
 
-.header-title,
-.header-title:hover,
-.header-title:visited {
-    font-family: "Wix Madefor Display", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: #888;
-    text-decoration: none;
-    letter-spacing: -0.05rem;
-}
 
-.linkedin-icon {
-    width: 24px;
-    height: 24px;
-    fill: #888;
-    margin-top: 8px;
-}
 
 .profile-pic {
     width: 50px;
@@ -77,13 +80,13 @@ h3 {
 }
 
 .post-image {
-    width: 80%;;
+    max-width: 80%;
     margin: auto;
     display: block;
 }
 
 .source-link {
     font-size: 0.8rem;
-    color: #434343 !important;
+    color: #000 !important;
     text-decoration: none;
 }
