@@ -10,14 +10,14 @@ html {
     font-size: 1.4rem;
     letter-spacing: -0.05rem;
     text-decoration: none;
-    color: #434343;
+    color: #999999;
 }
 
 .linkedin-icon {
     width: 1.4rem;
     height: 1.4rem;
     margin-top: 0.5rem;
-    fill: #0077b5;
+    fill: #999999;
 }
 
 .page-content {
@@ -26,19 +26,16 @@ html {
 }
 
 h1 {
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
 }
 
 h2 {
-    font-size: 1.4rem !important;
+    font-size: 1.5rem !important;
 }
 
 h3 {
-    font-size: 1.1rem !important;
+    font-size: 1.2rem !important;
 }
-
-
-
 
 .dflex {
     display: flex;
@@ -59,8 +56,6 @@ h3 {
     margin: 0 auto;
 }
 
-
-
 .profile-pic {
     width: 50px;
     height: 50px;
@@ -71,7 +66,7 @@ h3 {
 
 .footer-subtitle {
     font-size: 0.6rem;
-    color: #666;
+    color: #999999;
     max-width: 100px;
 }
 
@@ -80,13 +75,19 @@ h3 {
 }
 
 .post-image {
-    max-width: 80%;
+    max-width: 95%;
     margin: auto;
     display: block;
 }
 
 .source-link {
-    font-size: 0.8rem;
+
+    font-size: 0.7rem;
     color: #000 !important;
     text-decoration: none;
+    display: block;
+}
+
+ul > li {
+    margin-bottom: 1rem;
 }
