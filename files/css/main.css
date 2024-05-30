@@ -79,8 +79,8 @@ h3 {
     width: 150px;
 }
 
-.post-image {
-    max-width: 95%;
+.post-content img {
+    width: 95%;
     margin: auto;
     display: block;
 }
@@ -92,8 +92,4 @@ h3 {
     color: #000;
     line-height: 1.5rem;
 
-}
-
-ul > li {
-    margin-bottom: 1rem;
 }
