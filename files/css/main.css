@@ -23,6 +23,11 @@ html {
 .page-content {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
+    padding-bottom: 0;
+}
+
+.site-footer {
+    padding-top: 0;
 }
 
 h1 {
@@ -80,12 +85,13 @@ h3 {
     display: block;
 }
 
-.source-link {
-
+.slinks a, .slinks a:hover{
     font-size: 0.7rem;
-    color: #000 !important;
     text-decoration: none;
     display: block;
+    color: #000;
+    line-height: 1.5rem;
+
 }
 
 ul > li {
