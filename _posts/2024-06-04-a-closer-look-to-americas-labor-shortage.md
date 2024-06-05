@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Closer Look at the 2024 America’s Labor Shortage"
+title:  "A Closer Look to America’s Labor Shortage"
 categories: marketing
 ---
 The most recent data from the US Chamber of Commerce and the Bureau of Labor Statistics shows that by April 2024, there were 8.5 million job openings in the U.S. national market but only 6.5 million unemployed workers available to fill them. This disparity highlights a crucial challenge: a labor shortage with far-reaching implications for the economy and various industries.
@@ -21,7 +21,7 @@ Data sourced from ITAM, Stanford University, and the University of Chicago in 20
 
 The highest propensity for in-person work still exists in industries like hospitality and food services, where nearly 80% of staff work fully on-site. Alternatively, **industries with a low amount of physical labor are more likely to work remotely, such as information or professional services, where less than 45% of staff are fully on-site.**
 
-## A Closer Look
+## Industry Insights
 
 ### Leisure and Hospitality Industry
 Since November 2020, the leisure and hospitality industry has maintained the highest hiring rate among all industries, ranging from 6% to nearly 19%. This hiring rate remains significantly higher than the national average, which has hovered around 3.7% since January 2024. However, there is still a gap, with **1,153 thousand job openings in April 2024 but only 784 thousand unemployed workers.**
@@ -51,6 +51,7 @@ In conclusion, the labor shortage revealed by recent data from the US Chamber of
 As we delve deeper into the dynamics of different industries, it becomes evident that the nature of work arrangements has shifted in response to the pandemic. While some sectors, such as leisure and hospitality, continue to rely heavily on in-person work, others, like the professional services and information industries, have embraced remote work to adapt to changing circumstances. However, the challenges posed by the labor shortage persist across industries, emphasizing the need for innovative solutions and strategies to address the evolving demands of the modern workforce. Looking ahead, projections for employment trends from 2022 to 2032 underscore the importance of adapting to technological advancements and preparing for the changing nature of work in the digital age.
 
 ### Sources
+
 <div markdown="1" class="slinks">
 
 [Ferguson, S. (2024). Understanding America’s Labor Shortage. US Chamber of Commerce.](https://www.uschamber.com/workforce/understanding-americas-labor-shortage)
